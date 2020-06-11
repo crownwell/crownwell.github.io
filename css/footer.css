@@ -1,0 +1,116 @@
+
+footer {
+    background: #15192D;
+    width: 100%;
+}
+
+.footer-div {
+    color: white;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.contact {
+    margin-left: 2%;
+    padding: 17px;
+}
+
+.social-links-2 {
+    float: right;
+    margin-top: -223px;
+    margin-right: 12%;
+}
+
+.btn {
+    width: 1440px;
+    height: 299px;
+    left: 0px;
+    top: 3101px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fa-phone {
+    width: 40px;
+    font-size: 30px;
+}
+
+.fa-envelope {
+    width: 40px;
+    font-size: 30px;
+}
+
+.fa-map-marker-alt {
+    width: 40px;
+    font-size: 30px;
+}
+
+a i {
+    color: #B5A067;
+}
+
+.fa-facebook {
+    color: #B5A067;
+    margin-right: 20px;
+    font-size: 44px;
+}
+
+.fa-instagram {
+    background-color: #B5A067;
+    color: #15192D;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+.fa-twitter {
+    background-color: #B5A067;
+    color: #15192D;
+    padding: 12px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+    margin-right: 18px;
+}
+
+.fa-google-plus-g {
+    background-color: #B5A067;
+    color: #15192D;
+    padding: 12px 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+}
+
+.social-links-3 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .social-links-2 {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .contact {
+        text-align: center;
+    }
+}

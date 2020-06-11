@@ -1,0 +1,257 @@
+html,body{
+    font-family: 'Montserrat';
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+header{
+  text-align:center;
+  background-color: #F4EFEF;
+}
+
+
+.row{
+    max-width: 100%;
+    margin: 0 30px;
+}
+
+
+/* ----------------- */
+/* FIRST SECTION */
+/* ----------------- */
+
+.item-b {
+    background-image: url(../images/room-1.png);
+    background-size:cover;
+    background-position:fixed;
+    color:white;
+    overflow:hidden;
+    width: auto;
+    height: 40vh;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.item-head>p {
+    display: inline;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+/* ----------------- */
+/* SECOND SECTION */
+/* ----------------- */
+.second-section{
+    background-color: #fff;
+    width: 1240px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.large-text-box{
+    flex: 1;
+    text-align: justify;
+    margin-top: 40px;
+}
+.large-text-box h2{
+    text-transform: capitalize;
+    font-size: 120%;
+    font-weight: 600;
+}
+.large-text-box h2:after{
+    display: block;
+    content: "";
+    height: 1px;
+    background-color: #C17909;
+    margin-top: 3px;
+
+}
+.large-text-box p{
+    font-size: 80%;
+    line-height: 150%;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: justify;
+}
+#short-text{
+    font-weight: 700;
+}
+.large-text-box a{
+    display: inline-block;
+    border: 1px solid #B5A067;
+    border-radius: 200px;
+    background-color: #B5A067;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+.second-section img{
+    height: 400px;
+    width: 800px;
+
+}
+
+/* ----------------- */
+/* THIRD SECTION */
+/* ----------------- */
+.third-section{
+    background-color: #fff;
+}
+.third-section h2{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row; 
+    overflow: scroll;   
+}
+.container img{
+    width: 500px;
+    height: 500px;
+}
+
+.overlay-info{
+    background: transparent;
+    position: absolute;
+    top: 30%;
+    align-items: center;
+    transform: translate(40%);
+    align-items: center;
+}
+.overlay-info p{
+    color: #fff;
+    font-size: 150%;
+    line-height: 220%;
+    font-weight: 500;
+    margin-right: 100px;
+    
+}
+.overlay-info a{
+    display: inline-block;
+    border: 1px solid #B5A067;
+    border-radius: 200px;
+    background-color: #B5A067;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* ----------------- */
+/* FOURTH SECTION */
+/* ----------------- */
+.fourth-section{
+    background-color: #fff;
+}
+.fourth-section h2{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.hello{
+    font-size: 40px;
+    color: #B5A067;
+    float: left;
+}
+.first-row,
+.second-row{
+    padding:  20px 5px;
+    margin-top: 50px;
+}
+.first-row h3,
+.second-row h3{
+    padding-left: 50px;
+    font-size: 80%;
+}
+.first-row p,
+.second-row p{
+    float: right;
+    padding-left: 48px;
+    font-size: 75%;
+    line-height: 150%;
+    font-weight: 400;
+}
+.first-row{
+    margin-bottom: 0;
+}
+.second-row{
+    margin-top: 0;
+}
+
+ 
+  
+  @media only screen and (max-width: 655px) {
+    .section-text-box h1 {
+      font-size: 145%;
+    }
+  }
+  
+  @media only screen and (min-width: 660px) and (max-width: 1024px) {
+    .section-text-box h1 {
+      font-size: 210%;
+    }
+  }
+  
+  @media only screen and (max-width: 655px) {
+    .second-section {
+      display: inline;
+    }
+  
+    .large-text-box {
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 50px;;
+    }
+  
+    .large-text-box h2 {
+      font-size: 120%;
+    }
+  
+    .large-text-box p {
+      text-align: center;
+    }
+  
+    .about-us-img {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 660px) and (max-width: 1024px) {
+    .second-section {
+      display: inline;
+    }
+  
+    .large-text-box {
+      text-align: center;
+      margin: 1em 2em;
+    }
+  
+    .large-text-box h2 {
+      font-size: 120%;
+    }
+  
+    .large-text-box p {
+      text-align: center;
+    }
+  
+    .about-us-img-link {
+      width: 950px;
+      margin-left: 2%;
+    }
+  }
